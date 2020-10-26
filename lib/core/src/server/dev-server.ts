@@ -122,6 +122,7 @@ export default function (options: any) {
           logLevel: 'warn',
           clientLogLevel: 'warning',
           noInfo: true,
+          // @ts-ignore
           ...previewConfig.devServer,
         };
 
